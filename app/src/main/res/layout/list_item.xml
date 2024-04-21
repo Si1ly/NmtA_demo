@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="40dp"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"></TextView>
+
+    <TextView
+        android:id="@+id/timeCreate_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/name_Item"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="30dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/timeVideo_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/timeCreate_Item"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="30dp"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

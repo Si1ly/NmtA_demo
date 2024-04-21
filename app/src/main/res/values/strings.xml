@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NmtA</string>
+    <string name="email_login">Email</string>
+    <string name="user_login">Username</string>
+    <string name="pass_login">Password</string>
+    <string name="login_login">Login</string>
+    <string name="signin_login">Sign in</string>
+    <string name="welcome_login">Welcome to NmtA, make your video on your ways!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
